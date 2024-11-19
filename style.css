@@ -1,10 +1,15 @@
+.game-title {
+  text-align: center;
+  margin-bottom: 20px; /* Add some space between the title and board */
+}
+
 .game-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #919191;
+  background-color: #4831f6;
 }
 
 .game-board {
@@ -19,7 +24,7 @@
   width: 100px; /* Twice the width */
   height: 100px; /* Twice the height */
   border-radius: 50%;
-  background-color: #3426f7;
+  background-color: #747476;
   cursor: pointer;
 }
 
