@@ -46,7 +46,7 @@ function handleClick(row, col) {
     board[availableRow][col] = currentPlayer;
     updateBoard();
     if (checkForWin()) {
-      alert(`Player ${currentPlayer === player1 ? "1" : "2"} wins! &#128557;&#128557;&#128557;`);
+      alert(`Player ${currentPlayer === player1 ? "1" : "2"} wins! &#128557; &#128557; &#128557;`);
       return;
     }
     switchPlayer();
