@@ -41,12 +41,15 @@
 .player-info {
   margin-top: 40px;
   text-align: center;
+  font-size: 30px; /* Adjust the font size as needed */
+  color: white;
 }
 
 .reset-button {
   padding: 20px 40px;
   margin-top: 20px;
   background-color: #4CAF50;
+  font-size: 30px; /* Adjust the font size as needed */
   color: white;
   border: none;
   border-radius: 5px;
