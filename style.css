@@ -1,5 +1,7 @@
 .game-title {
   text-align: center;
+  font-size: 40px; /* Adjust the font size as needed */
+  color: white;
   margin-bottom: 20px; /* Add some space between the title and board */
 }
 
@@ -24,7 +26,7 @@
   width: 100px; /* Twice the width */
   height: 100px; /* Twice the height */
   border-radius: 50%;
-  background-color: #747476;
+  background-color: #b5b5ba;
   cursor: pointer;
 }
 
@@ -37,13 +39,13 @@
 }
 
 .player-info {
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
 .reset-button {
-  padding: 10px 20px;
-  margin-top: 10px;
+  padding: 20px 40px;
+  margin-top: 20px;
   background-color: #4CAF50;
   color: white;
   border: none;
